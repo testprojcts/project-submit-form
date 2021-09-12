@@ -550,6 +550,7 @@ footer .mail a {
     align-items: center;
     justify-content: center;
     padding: 20px 30px;
+    margin: 0;
   }
 
   footer p {
