@@ -11,19 +11,71 @@
     <header>
       <div class="left-logo">
         <a href="index.html">
-          <img src="" alt="code with eras logo" />
+          <!-- <img src="" alt="code with eras logo" /> -->
+          <h2>Logo</h2>
         </a>
       </div>
       <nav>
-        <a href="regiser.html">Register</a>
-        <a href="login.html">Login</a>
+        <a href="regiser.html" class="register">Register</a>
+        <a href="login.html" class="login">Login</a>
       </nav>
     </header>
 
     <section>
-        <div class="banner">
-            <h2>Upload your Projects Submissions here</h2>
+      <div class="banner">
+        <h2>Upload your Projects Submissions here</h2>
+      </div>
+    </section>
+
+    <section class="form_wrapper">
+      <form action="#" autocomplete="off">
+        <div class="form-hd">
+          <h2>Submit Project Assignment</h2>
         </div>
+        <div class="form-group">
+          <label for="firstname">Firstname</label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Enter your firstname"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="lastname">Lastname</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Enter your lastname"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="projectlink">Project Link</label>
+          <input
+            type="url"
+            name="projectlink"
+            id="projectlink"
+            placeholder="Enter your projectlink url eg. www.netlify.com"
+            required
+          />
+        </div>
+        <div class="submit">
+          <button>Submit Project</button>
+        </div>
+      </form>
     </section>
   </body>
 </html>
