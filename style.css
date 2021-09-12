@@ -34,6 +34,10 @@ header {
   width: 50px;
 }
 
+.left-logo a {
+  color: dodgerblue;
+}
+
 .left-logo img {
   height: 100%;
 }
@@ -91,7 +95,7 @@ nav a {
 /* banner */
 .banner {
   width: 100%;
-  height: 390px;
+  height: 490px;
   background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.459)),
     dodgerblue;
   display: flex;
@@ -280,6 +284,10 @@ footer .mail a {
     box-shadow: 1px 1px 8px rgba(109, 109, 109, 0.397);
   }
 
+  form .form-hd {
+    margin-bottom: 20px;
+  }
+
   form .form-hd h2 {
     color: rgba(22, 22, 22, 0.808);
     font-size: 28px;
@@ -331,7 +339,7 @@ footer .mail a {
   }
 
   footer {
-    margin-top: 170px;
+    margin-top: 250px;
   }
 }
 
@@ -374,6 +382,15 @@ footer .mail a {
     padding: 40px 30px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 8px rgba(109, 109, 109, 0.397);
+  }
+
+  .form_group input {
+    text-overflow: ellipsis;
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 250px;
   }
 }
 
@@ -521,6 +538,11 @@ footer .mail a {
     max-width: 800px;
     text-align: center;
     line-height: 28px;
+  }
+
+  .form_group input {
+    text-overflow: ellipsis;
+    font-size: 14px;
   }
 
   footer {
